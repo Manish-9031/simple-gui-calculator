@@ -1,0 +1,43 @@
+<html>
+    <head>
+       <title>GUI Calculator </title>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+     <form class="cal" name="cal">
+      <table border="7" align="center" cellpadding="15" cellpadding="12">
+       <tr>
+        <td>
+        <input type="text" name="input" class="mani" size="20" >
+         </td>
+       </tr>
+      <tr>
+      <td>
+      <input class="button" type="button" name="nine" value="9" style="font-size:30px" onclick="input.value +='9'" >
+      <input type="button" name="eight" value="8" style="font-size:30px" onclick="input.value +='8'" >
+      <input type="button" name="seven" value="7" style="font-size:30px" onclick="input.value +='7'" >
+      <input type="button" name="plush" value="+" style="font-size:30px" onclick="input.value +='+'" >
+      
+      <br>
+      <input type="button" name="six" value="6" style="font-size:30px" onclick="input.value +='6'" >
+      <input type="button" name="five" value="5" style="font-size:30px" onclick="input.value +='5'" >
+      <input type="button" name="fore" value="4" style="font-size:30px" onclick="input.value +='4'" >
+      <input type="button" name="minus" value="-" style="font-size:30px" onclick="input.value +='-'" >
+      <br>
+      <input type="button" name="three" value="3" style="font-size:30px" onclick="input.value +='3'" >
+      <input type="button" name="two" value="2" style="font-size:30px" onclick="input.value +='2'" >
+      <input type="button" name="one" value="1" style="font-size:30px" onclick="input.value +='1'" >
+      <input type="button" name="mult" value="*" style="font-size:30px" onclick="input.value +='*'" >
+       
+      <br>
+      <input type="button" name="zero" value="0" style="font-size:30px" onclick="input.value +='0'" >
+      <input type="button" name="dt" value="." style="font-size:30px" onclick="input.value +='.'" >
+      <input type="button" name="divv" value="/" style="font-size:30px" onclick="input.value +='/'" >
+      <input type="button" name="eqial" value="=" style="font-size:30px" onclick="input.value =eval(input.value)" >
+      </td>
+     </tr>
+      </table>
+     </form>
+    </body>
+</html>
